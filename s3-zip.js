@@ -1,3 +1,4 @@
+require('aws-sdk/lib/maintenance_mode_message').suppress = true;
 const s3Files = require('s3-files')
 const archiver = require('archiver')
 var Writable = require('stream').Writable;
